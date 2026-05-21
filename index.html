@@ -50,7 +50,7 @@ description: Ariihant Classes coaching institute in Rajendra Nagar and Rampur Ga
   </div>
 </section>
 
-<section class="bg-white py-16 sm:py-20">
+<section class="py-16 md:py-20 bg-[#F9FAFB]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-3xl text-center">
       <span class="section-kicker">Courses Offered</span>
@@ -175,15 +175,18 @@ description: Ariihant Classes coaching institute in Rajendra Nagar and Rampur Ga
       </div>
       <a href="{{ '/gallery/' | relative_url }}" class="btn btn-outline">View Full Gallery</a>
     </div>
-    <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      {% for item in site.data.gallery limit: 6 %}
-      <article class="album-card group">
-        <div class="overflow-hidden rounded-[1.5rem] bg-white p-3 shadow-xl ring-1 ring-gold/30">
-          <img src="{{ item.image }}" alt="{{ item.alt }}" class="gallery-image h-64 w-full rounded-[1.1rem] object-cover">
-          <div class="p-4">
-            <p class="text-xs font-black uppercase tracking-[0.16em] text-primary">{{ item.category }}</p>
-            <h3 class="mt-2 font-heading text-lg font-extrabold">{{ item.title }}</h3>
-          </div>
+    <div class="gallery-masonry mt-12">
+      {% for item in site.data.gallery limit: 8 %}
+      <article class="gallery-item" data-category="{{ item.category }}">
+        <img
+          src="{{ item.image }}"
+          alt="{{ item.alt }}"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="p-5">
+          <p class="text-xs font-black uppercase tracking-[0.16em] text-primary">{{ item.category }}</p>
+          <h3 class="mt-2 font-heading text-lg font-extrabold">{{ item.title }}</h3>
         </div>
       </article>
       {% endfor %}
