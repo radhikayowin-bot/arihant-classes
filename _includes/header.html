@@ -1,0 +1,46 @@
+<header class="sticky top-0 z-50 border-b border-red-100 bg-white/95 backdrop-blur-xl">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+    <div class="flex min-h-20 items-center justify-between gap-4">
+      <a href="{{ '/' | relative_url }}" class="flex min-w-0 items-center gap-3" aria-label="Ariihant Classes home">
+        <img src="{{ site.logo | relative_url }}" alt="Ariihant Classes logo" class="h-12 w-12 shrink-0 rounded-xl object-contain shadow-sm">
+        <span class="min-w-0">
+          <span class="block truncate font-heading text-lg font-extrabold leading-tight text-primaryDark sm:text-xl">Ariihant Classes</span>
+          <span class="block truncate text-xs font-semibold uppercase tracking-[0.18em] text-primary">Your Formula for Success</span>
+        </span>
+      </a>
+
+      <div class="hidden items-center gap-7 lg:flex">
+        <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+        <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
+        <a class="nav-link" href="{{ '/courses/' | relative_url }}">Courses</a>
+        <a class="nav-link" href="{{ '/gallery/' | relative_url }}">Gallery</a>
+        <a class="nav-link" href="{{ '/founder/' | relative_url }}">Founder</a>
+        <a class="nav-link" href="{{ '/contact/' | relative_url }}">Contact</a>
+      </div>
+
+      <div class="hidden items-center gap-3 lg:flex">
+        <a href="{{ '/registration/' | relative_url }}" class="btn btn-outline">Register</a>
+        <a href="{{ '/enrollment/' | relative_url }}" class="btn btn-primary">Enroll Now</a>
+      </div>
+
+      <button id="mobile-menu-button" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-red-100 text-primaryDark transition hover:bg-softRed lg:hidden" type="button" aria-label="Open mobile menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars text-xl" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-red-100 py-4 lg:hidden">
+      <div class="grid gap-2">
+        <a class="mobile-nav-link" href="{{ '/' | relative_url }}">Home</a>
+        <a class="mobile-nav-link" href="{{ '/about/' | relative_url }}">About</a>
+        <a class="mobile-nav-link" href="{{ '/courses/' | relative_url }}">Courses</a>
+        <a class="mobile-nav-link" href="{{ '/gallery/' | relative_url }}">Gallery</a>
+        <a class="mobile-nav-link" href="{{ '/founder/' | relative_url }}">Founder</a>
+        <a class="mobile-nav-link" href="{{ '/contact/' | relative_url }}">Contact</a>
+      </div>
+      <div class="mt-4 grid gap-3 sm:grid-cols-2">
+        <a href="{{ '/registration/' | relative_url }}" class="btn btn-outline justify-center">Register</a>
+        <a href="{{ '/enrollment/' | relative_url }}" class="btn btn-primary justify-center">Enroll Now</a>
+      </div>
+    </div>
+  </nav>
+</header>

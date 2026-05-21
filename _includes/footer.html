@@ -1,0 +1,48 @@
+<footer class="bg-primaryDark text-white">
+  <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="{{ site.logo | relative_url }}" alt="Ariihant Classes logo" class="h-12 w-12 rounded-xl bg-white object-contain p-1">
+          <div>
+            <p class="font-heading text-xl font-extrabold">Ariihant Classes</p>
+            <p class="text-sm text-red-100">Your Formula for Success</p>
+          </div>
+        </div>
+        <p class="mt-5 max-w-sm text-sm leading-6 text-red-50">Premium coaching for XI, XII, IX, X, IIT-JEE, and NEET with disciplined study systems and student-first mentorship.</p>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Quick Links</h2>
+        <div class="mt-4 grid gap-3 text-sm text-red-50">
+          <a href="{{ '/about/' | relative_url }}" class="footer-link">About</a>
+          <a href="{{ '/courses/' | relative_url }}" class="footer-link">Courses</a>
+          <a href="{{ '/gallery/' | relative_url }}" class="footer-link">Gallery</a>
+          <a href="{{ '/founder/' | relative_url }}" class="footer-link">Founder</a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Admissions</h2>
+        <div class="mt-4 grid gap-3 text-sm text-red-50">
+          <a href="{{ '/registration/' | relative_url }}" class="footer-link">Registration</a>
+          <a href="{{ '/enrollment/' | relative_url }}" class="footer-link">Enrollment</a>
+          <a href="{{ '/contact/' | relative_url }}" class="footer-link">Contact Office</a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Contact</h2>
+        <div class="mt-4 grid gap-3 text-sm text-red-50">
+          <p><i class="fa-solid fa-location-dot mr-2"></i>Address placeholder, City</p>
+          <p><i class="fa-solid fa-phone mr-2"></i>+91 00000 00000</p>
+          <p><i class="fa-solid fa-envelope mr-2"></i>info@ariihantclasses.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 border-t border-white/15 pt-6 text-center text-sm text-red-100">
+      <p>&copy; {{ 'now' | date: '%Y' }} Ariihant Classes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Ariihant Classes Logo</title>
+  <desc id="desc">Red academic emblem for Ariihant Classes</desc>
+  <rect width="160" height="160" rx="34" fill="#FFF1F1"/>
+  <circle cx="80" cy="80" r="58" fill="#E53935"/>
+  <path d="M80 26 128 54v53L80 134l-48-27V54l48-28Z" fill="#B71C1C" opacity=".18"/>
+  <path d="M43 105 73 43h15l30 62H99l-6-14H67l-6 14H43Zm30-30h14l-7-17-7 17Z" fill="#FFFFFF"/>
+  <path d="M53 114h54" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+</svg>

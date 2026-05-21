@@ -1,0 +1,19 @@
+- title: XI & XII
+  icon: fa-solid fa-book-open-reader
+  description: Board-focused classes with concept clarity, practice sheets, and exam preparation for senior secondary students.
+  url: /courses/#xi-xii
+
+- title: IX & X
+  icon: fa-solid fa-school
+  description: Foundation coaching for school excellence, stronger fundamentals, and confident board exam readiness.
+  url: /courses/#ix-x
+
+- title: IIT-JEE
+  icon: fa-solid fa-atom
+  description: Structured preparation for engineering aspirants with problem-solving drills, tests, and performance tracking.
+  url: /courses/#iit-jee
+
+- title: NEET
+  icon: fa-solid fa-user-doctor
+  description: Biology, physics, and chemistry preparation for medical aspirants through disciplined practice and revision.
+  url: /courses/#neet
