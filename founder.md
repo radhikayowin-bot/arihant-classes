@@ -13,7 +13,7 @@ permalink: /founder/
       <a href="{{ '/enrollment/' | relative_url }}" class="btn btn-primary mt-8">Enroll Under Expert Guidance</a>
     </div>
     <div class="rounded-[2rem] bg-white p-3 shadow-2xl ring-1 ring-gold/30">
-      <img src="https://placehold.co/760x820/FFF7E6/B71C1C?text=R+K+Bansal" alt="R K Bansal, Director of Ariihant Classes" class="w-full rounded-[1.5rem] object-cover">
+      <img src="/images/674242981_1491309385941709_3252741003776001036_n.jpg" alt="R K Bansal, Director of Ariihant Classes" class="w-full rounded-[1.5rem] object-cover">
     </div>
   </div>
 </section>

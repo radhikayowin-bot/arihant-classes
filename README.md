@@ -47,7 +47,7 @@ The committed `wrangler.jsonc` runs `bundle exec jekyll build` before uploading 
 
 ## Gallery Images
 
-Gallery content is stored in `_data/gallery.yml`. Replace placeholder `placehold.co` image URLs with local image paths later, for example `/assets/gallery/photo-1.jpg`.
+Gallery content is stored in `_data/gallery.yml` and uses local files from `/images/`.
 
 ## Logo
 
