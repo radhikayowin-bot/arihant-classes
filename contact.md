@@ -37,17 +37,16 @@ permalink: /contact/
   </div>
   <div id="map" class="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
     <div class="grid gap-6 lg:grid-cols-2">
-      <div class="card rounded-3xl p-6"><h2 class="font-heading text-2xl font-black">Rajendra Nagar, Bareilly</h2><p class="mt-3 text-textMuted">Map embed will be updated with exact location link.</p></div>
-      <div class="card rounded-3xl p-6"><h2 class="font-heading text-2xl font-black">Rampur Garden, Bareilly</h2><p class="mt-3 text-textMuted">Map embed will be updated with exact location link.</p></div>
+      <div class="card rounded-3xl p-6"><h2 class="font-heading text-2xl font-black">Rajendra Nagar, Bareilly</h2><p class="mt-3 text-textMuted">Visit Ariihant Classes for admissions, batches, and academic counselling.</p></div>
+      <div class="card rounded-3xl p-6"><h2 class="font-heading text-2xl font-black">Rampur Garden, Bareilly</h2><p class="mt-3 text-textMuted">Connect with our team for course guidance and new batch details.</p></div>
     </div>
-    <div class="mt-8 w-full overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gold/30">
-      <div class="flex h-[300px] items-center justify-center bg-cream text-center md:h-[420px]">
-        <div>
-          <i class="fa-solid fa-map-location-dot text-4xl text-primaryDark"></i>
-          <p class="mt-4 font-heading text-xl font-black">Google Map Placeholder</p>
-          <p class="mt-2 text-textMuted">Map embed will be updated with exact location link.</p>
-        </div>
-      </div>
+    <div class="mt-8 w-full rounded-3xl overflow-hidden shadow-lg ring-1 ring-gold/30">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.030359029509!2d79.4242414!3d28.388150999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0071d9c467f29%3A0xcb8cfa1cdabf54a9!2sARIHANT%20CLASSES!5e0!3m2!1sen!2sin!4v1779388283119!5m2!1sen!2sin"
+        class="w-full h-[300px] md:h-[420px] border-0"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </div>
 </section>
