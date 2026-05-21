@@ -35,6 +35,5 @@ permalink: /gallery/
       </article>
       {% endfor %}
     </div>
-    <p class="mt-8 rounded-2xl bg-bgLight p-5 text-sm text-textMuted">Future-ready structure: gallery items are stored in <code>_data/gallery.yml</code>, so real images from a gallery folder can be mapped here easily later.</p>
   </div>
 </section>
