@@ -1,11 +1,11 @@
-- title: XI & XII
+- title: XI & XII (CBSE / ISC)
   icon: fa-solid fa-book-open-reader
-  description: Board-focused classes with concept clarity, practice sheets, and exam preparation for senior secondary students.
+  description: Senior secondary coaching for Mathematics, Applied Maths, Physics, Chemistry, Biology, Computer Science, and Commerce Stream.
   url: /courses/#xi-xii
 
-- title: IX & X
+- title: IX & X (CBSE)
   icon: fa-solid fa-school
-  description: Foundation coaching for school excellence, stronger fundamentals, and confident board exam readiness.
+  description: CBSE-focused school coaching with strong fundamentals, regular tests, and board-oriented practice.
   url: /courses/#ix-x
 
 - title: IIT-JEE
@@ -17,3 +17,13 @@
   icon: fa-solid fa-user-doctor
   description: Biology, physics, and chemistry preparation for medical aspirants through disciplined practice and revision.
   url: /courses/#neet
+
+- title: Foundation
+  icon: fa-solid fa-layer-group
+  description: Early academic foundation for students preparing for future board and competitive exam pathways.
+  url: /courses/#foundation
+
+- title: Commerce Stream
+  icon: fa-solid fa-chart-pie
+  description: Focused Commerce Stream guidance with structured classroom learning and exam preparation support.
+  url: /courses/#commerce-stream

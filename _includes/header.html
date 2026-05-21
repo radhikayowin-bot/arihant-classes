@@ -1,4 +1,10 @@
 <header class="sticky top-0 z-50 border-b border-red-100 bg-white/95 backdrop-blur-xl">
+  <div class="hidden bg-primaryDark text-white sm:block">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4 px-4 py-2 text-xs font-semibold sm:px-6 lg:px-8">
+      <span><i class="fa-solid fa-location-dot mr-2 text-gold"></i>{{ site.locations }}</span>
+      <span><i class="fa-solid fa-phone mr-2 text-gold"></i>Helpline: {{ site.phone }} <span class="mx-2 text-white/40">|</span> Alternate: {{ site.alternate_phone }}</span>
+    </div>
+  </div>
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
     <div class="flex min-h-20 items-center justify-between gap-4">
       <a href="{{ '/' | relative_url }}" class="flex min-w-0 items-center gap-3" aria-label="Ariihant Classes home">
@@ -19,6 +25,7 @@
       </div>
 
       <div class="hidden items-center gap-3 lg:flex">
+        <a href="tel:+919411496114" class="btn btn-gold"><i class="fa-solid fa-phone"></i> Call Now</a>
         <a href="{{ '/registration/' | relative_url }}" class="btn btn-outline">Register</a>
         <a href="{{ '/enrollment/' | relative_url }}" class="btn btn-primary">Enroll Now</a>
       </div>
@@ -38,6 +45,7 @@
         <a class="mobile-nav-link" href="{{ '/contact/' | relative_url }}">Contact</a>
       </div>
       <div class="mt-4 grid gap-3 sm:grid-cols-2">
+        <a href="tel:+919411496114" class="btn btn-gold justify-center">Call Now</a>
         <a href="{{ '/registration/' | relative_url }}" class="btn btn-outline justify-center">Register</a>
         <a href="{{ '/enrollment/' | relative_url }}" class="btn btn-primary justify-center">Enroll Now</a>
       </div>

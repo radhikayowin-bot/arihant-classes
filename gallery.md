@@ -3,7 +3,7 @@ title: Gallery
 permalink: /gallery/
 ---
 
-<section class="bg-gradient-to-br from-softRed via-white to-bgLight py-16 sm:py-20">
+<section class="bg-gradient-to-br from-cream via-white to-bgLight py-16 sm:py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <span class="section-kicker">Gallery</span>
     <h1 class="mt-5 font-heading text-4xl font-black sm:text-5xl">Campus & Classroom Gallery</h1>
@@ -15,13 +15,13 @@ permalink: /gallery/
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mb-10 flex flex-wrap gap-3">
       <span class="rounded-full bg-primaryDark px-4 py-2 text-sm font-bold text-white">Classroom</span>
-      <span class="rounded-full bg-softRed px-4 py-2 text-sm font-bold text-primaryDark">Events</span>
-      <span class="rounded-full bg-softRed px-4 py-2 text-sm font-bold text-primaryDark">Achievements</span>
-      <span class="rounded-full bg-softRed px-4 py-2 text-sm font-bold text-primaryDark">Students</span>
+      <span class="rounded-full bg-cream px-4 py-2 text-sm font-bold text-primaryDark ring-1 ring-gold/30">Events</span>
+      <span class="rounded-full bg-cream px-4 py-2 text-sm font-bold text-primaryDark ring-1 ring-gold/30">Achievements</span>
+      <span class="rounded-full bg-cream px-4 py-2 text-sm font-bold text-primaryDark ring-1 ring-gold/30">Students</span>
     </div>
     <div class="columns-1 gap-6 sm:columns-2 lg:columns-3">
       {% for item in site.data.gallery %}
-      <article class="group mb-6 break-inside-avoid overflow-hidden rounded-[1.75rem] bg-white shadow-xl ring-1 ring-red-100" data-category="{{ item.category }}">
+      <article class="group mb-6 break-inside-avoid overflow-hidden rounded-[1.75rem] bg-white shadow-xl ring-1 ring-gold/30" data-category="{{ item.category }}">
         <div class="overflow-hidden">
           <img src="{{ item.image }}" alt="{{ item.alt }}" class="gallery-image w-full object-cover">
         </div>

@@ -3,12 +3,12 @@ title: About
 permalink: /about/
 ---
 
-<section class="bg-gradient-to-br from-softRed via-white to-bgLight py-16 sm:py-20">
+<section class="bg-gradient-to-br from-cream via-white to-bgLight py-16 sm:py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl">
       <span class="section-kicker">About Ariihant Classes</span>
       <h1 class="mt-5 font-heading text-4xl font-black sm:text-5xl">Focused coaching for serious academic growth.</h1>
-      <p class="mt-6 text-lg leading-8 text-textMuted">Ariihant Classes supports students through structured teaching, regular testing, doubt support, and exam-oriented preparation for school boards and competitive exams.</p>
+      <p class="mt-6 text-lg leading-8 text-textMuted">Ariihant Classes supports students through structured teaching, regular testing, doubt support, and exam-oriented preparation at Rajendra Nagar and Rampur Garden, Bareilly.</p>
     </div>
   </div>
 </section>
@@ -19,6 +19,7 @@ permalink: /about/
       <h2 class="font-heading text-3xl font-black">Our Academic Approach</h2>
       <p class="mt-5 leading-8 text-textMuted">We combine concept clarity, planned revision, regular practice, and student-specific guidance so learners can build confidence gradually and perform better in exams.</p>
       <p class="mt-4 leading-8 text-textMuted">The institute is designed for students and parents who value consistency, discipline, and clear academic communication.</p>
+      <p class="mt-4 leading-8 text-textMuted">Led by R K Bansal, Director & Maths / Applied Maths Mentor, the institute serves XI & XII, IX & X, IIT-JEE, NEET, Foundation, and Commerce Stream students.</p>
     </div>
     <div class="grid gap-4 sm:grid-cols-2">
       <div class="card rounded-3xl p-6"><i class="fa-solid fa-book-open text-2xl text-primaryDark"></i><h3 class="mt-4 font-heading font-extrabold">Concept Clarity</h3><p class="mt-2 text-sm text-textMuted">Strong fundamentals before advanced practice.</p></div>
