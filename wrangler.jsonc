@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ariihant-classes",
+  "compatibility_date": "2026-05-21",
+  "assets": {
+    "directory": "_site"
+  },
+  "build": {
+    "command": "bundle exec jekyll build"
+  }
+}

@@ -35,6 +35,16 @@ Use these build settings:
 - Build output directory: `_site`
 - Ruby version: use Cloudflare's default supported Ruby runtime or set `RUBY_VERSION` if your account requires it.
 
+Do not use `npx bundle exec jekyll build`. `bundle` is a Ruby executable, not an npm package.
+
+If deploying with Wrangler Workers static assets, use:
+
+```bash
+npx wrangler deploy
+```
+
+The committed `wrangler.jsonc` runs `bundle exec jekyll build` before uploading `_site`.
+
 ## Gallery Images
 
 Gallery content is stored in `_data/gallery.yml`. Replace placeholder `placehold.co` image URLs with local image paths later, for example `/assets/gallery/photo-1.jpg`.
